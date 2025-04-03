@@ -1,0 +1,471 @@
+header {
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0px 0px;
+}
+
+header svg {
+    width: 250px;
+    height: 180px;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+header nav {
+    justify-content: space-between;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    flex: 2;
+    text-align: right;
+    letter-spacing: 4px;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(148, 148, 148);
+    width: 100%;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+img {
+    width: 100%;
+}
+
+.banner h1 {
+    width: 100%;
+    font-weight: 600;
+    font-size: clamp(0.8rem, 5vw, 1.8rem);
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.banner p {
+    width: 100%;
+    font-weight: 100;
+    font-size: 1.25rem;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.banner {
+    background-color: black;
+    width: 100%;
+    padding: 100px 0;
+    text-align: center;
+    background-position-y: 55%;
+    background-size: cover;
+    color: #ffffff;
+    display: grid;
+}
+
+.contacto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.contacto h2 {
+    font-weight: 800;
+    font-size: clamp(1.5rem, 5vw, 2rem);
+    text-align: start;
+    box-sizing: border-box;
+}
+
+.contacto p {
+    font-weight: 300;
+    font-size: clamp(1rem, 5vw, 1.46rem);
+    padding-left: 20px;
+    text-align: start;
+    box-sizing: border-box;
+}
+
+.contacto__whats {
+    width: 50px;
+    height: auto;
+    padding: 0px 10px 0px 10px;
+    float: left;
+    box-sizing: border-box;
+}
+
+.contacto__face {
+    width: 50px;
+    height: 35px;
+    padding: 0px 0px 0px 5px;
+    float: left;
+    box-sizing: border-box;
+}
+
+.contacto__insta {
+    width: 50px;
+    height: auto;
+    padding: 0px 10px 0px 10px;
+    float: left;
+    box-sizing: border-box;
+}
+
+.contacto__tik {
+    width: 50px;
+    height: auto;
+    padding: 0px 10px 0px 10px;
+    float: left;
+    box-sizing: border-box;
+}
+
+.contacto__mail {
+    width: 50px;
+    height: auto;
+    padding: 0px 10px 0px 10px;
+    float: left;
+    box-sizing: border-box;
+}
+
+.horario h2 {
+    font-weight: 800;
+    font-size: clamp(1.5rem, 5vw, 2rem);
+    text-align: start;
+    box-sizing: border-box;
+    padding: 0px 0px 0px 0px; 
+}
+
+.horario p {
+    font-weight: 300;
+    font-size: clamp(1rem, 5vw, 1.56rem);
+    text-align: start;
+    box-sizing: border-box;
+    padding: 0px 0px 0px 0px; 
+}
+
+.productos {
+    box-sizing: border-box;
+    width: 69%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+
+.productos h3 {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+.productos article {
+    cursor: pointer;
+    text-align: center;
+}
+
+.productos img{
+    width: 200px;
+    padding-top: 20px;
+}
+
+.galeria{
+    box-sizing: border-box;
+    width: 60%;
+    margin: 0 auto;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    display: grid;
+}
+
+.galeria__h1 {
+    font-weight: 800;
+    font-size: clamp(2rem, 5vw, 2.5rem);
+    padding: 0px 0px 0px 20px;
+}
+
+.galeria h3 {
+    font-weight: 400;
+    font-size: clamp(1rem, 5vw, 1.56rem);
+    padding: 0px 0px 10px 0px;
+}
+
+.galeria article {
+    text-align: center;
+    cursor: pointer;
+}
+
+.galeria img {
+    width: 100%;
+    padding: 20px 20px 20px 20px;
+    cursor: pointer;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.galeria__btn {
+    border: none;
+    background-color: #ffeaca;
+    color: #000;
+    border-radius: 20px;
+    width: 50%;
+    padding: 10px 0px;
+    text-align: center;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all .25s linear;
+}
+
+.vermas {
+    box-sizing: border-box;
+    width: 70%;
+    margin: 0 auto;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    display: grid;
+    padding: 0px 0px 20px 0px;
+}
+
+.vermas__h1 {
+    font-weight: 800;
+    font-size: clamp(2rem, 5vw, 2.5rem);
+    padding: 0px 0px 0px 20px;
+    text-align: center;
+}
+
+.vermas h3 {
+    font-weight: 400;
+    font-size: clamp(1rem, 5vw, 1.56rem);
+    padding: 0px 0px 10px 0px;
+}
+
+.vermas article {
+    text-align: center;
+    cursor: pointer;
+}
+
+.vermas img {
+    width: 100%;
+    padding: 20px 30px 20px 30px;
+    cursor: pointer;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.vermas__btn {
+    border: none;
+    background-color: #ffeaca;
+    color: #000;
+    border-radius: 20px;
+    width: 50%;
+    padding: 10px 0px;
+    text-align: center;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all .25s linear;
+}
+
+.ubicacion {
+    padding: 0px 0px 20px 20px;
+}
+
+.ubicacion h1{
+    font-weight: 800;
+    font-size: clamp(2rem, 5vw, 2.5rem);
+    padding: 0px 0px 0px 0px;
+}
+
+.ubicacion a {
+    font-weight: 700;
+    font-size: clamp(0.8rem, 5vw, 1rem);
+}
+
+.ubicacion__btn {
+    border: none;
+    background-color: #ffeaca;
+    color: #000;
+    border-radius: 20px;
+    width: 100px;
+    padding: 10px 0px;
+    text-align: center;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all .25s linear;
+}
+
+.ubicacion__mapa {
+    width: 100%;
+    padding: 0px 20px 0px 0px;
+    box-sizing: border-box;
+}
+
+.acerca h1{
+    font-weight: 800;
+    font-size: clamp(2rem, 5vw, 3.125rem);
+    padding: 0px 0px 20px 20px;
+    text-align: center;
+}
+
+.acerca p {
+    font-weight: 400px;
+    font-size: clamp(1.5rem, 5vw, 1.875rem);
+    padding: 0px 0px 0px 20px;
+    text-align: center;
+}
+
+.presentacion img {
+    width: 400px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px 20px 20px;
+    float: left;
+}
+
+.presentacion p {
+    font-weight: 400px;
+    font-size: clamp(0.8rem, 5vw, 1.2rem);
+    padding: 0px 0px 0px 20px;
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+footer {
+    background:white;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+footer svg {
+    width: 250px;
+    height: 180px;
+}
+
+footer .inicio {
+    justify-content: space-between;
+    padding: 20px 20px 20px 20px;
+    box-sizing: border-box;
+    text-align: center;
+    justify-content: center;
+    letter-spacing: 4px;
+    font-size: 25px;
+}
+
+footer .redes {
+    justify-content: space-between;
+    box-sizing: border-box;
+    letter-spacing: 4px;
+    padding: 0px 5px 0px 0px;
+    font-size: 25px;
+}
+
+footer .whats {
+    width: 42px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+footer .face {
+    width: 35px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+footer .insta {
+    width: 25px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+footer .tik {
+    width: 25px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+@media (max-width: 600px) {
+    header {
+        padding: 15px;
+    }
+
+    header > svg {
+        width: 200px;
+        height: 120px;
+    }
+
+    footer > svg {
+        width: 200px;
+        height: 120px;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    body{
+        background-color: #333;
+        color: #fff;
+    }
+}
+
+@media (max-width: 200px) {
+    .galeria {
+        grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    }
+}
+
+@media (max-width: 50px) {
+    .galeria {
+        grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+    }
+}
+
+@media (max-width: 600px) {
+    .img__svg {
+        width: 100px;
+        height: auto;
+    }
+}
+
+@media (hover: hover) {
+    button:hover {
+        background-color: #b19d83;
+        color: #ffeaca;
+    }
+}
+
+@media (max-width: 600px) {
+    .presentacion img {
+        width: 200px;
+        height: auto;
+    }
+}
+
+@media (max-width: 400px) {
+    .presentacion img {
+        width: 100px;
+        height: auto;
+    }
+}
+
+@media (max-width: 600px) {
+    footer .redes {
+        font-size: 15px;
+    }
+
+    footer .inicio {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 1400px) {
+    .ubicacion__mapa {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 800px) {
+    .ubicacion__mapa {
+        width: 100%;
+        height: auto;
+    }
+}
